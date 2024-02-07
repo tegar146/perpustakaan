@@ -50,7 +50,7 @@
           <div class="d-flex">
             <h2 class="text-primary">About</h2>
           </div>
-          <p>Tegar Shahrul Maulana Ramelan Ganteng Banget</p>
+          <p>Membaca bukan hanya sekadar mengenali kata-kata di atas kertas, melainkan mengarungi lautan pemikiran dan pengalaman. Setiap halaman adalah sebuah kapal yang membawamu menelusuri dunia tanpa batas. Semakin banyak buku yang kamu baca, semakin luas pelayaranmu dalam mengumpulkan hikmah dan pengetahuan.</p>
       </div>
       <div class="d-flex justify-content-center">
         <h3 class="text-secondary">Dikembangkan Oleh :</h3>

@@ -91,7 +91,7 @@ WHERE pengembalian.id_pengembalian = $dendaSiswa");
     
     <footer class="fixed-bottom mt-5 shadow-lg bg-subtle p-3">
       <div class="container-fluid d-flex justify-content-between">
-      <p class="mt-2">Created by <span class="text-primary"> Tegar&Vega</span> © 2024</p>
+      <p class="mt-2">Created by <span class="text-primary"> Tegar & Vega</span> © 2024</p>
       </div>
   </footer>
   

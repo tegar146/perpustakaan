@@ -50,11 +50,7 @@
           <div class="d-flex">
             <h2 class="text-primary">About</h2>
           </div>
-          <p>Kami percaya bahwa pengetahuan adalah kekuatan, dan setiap individu berhak mendapatkan akses ke sumber daya pendidikan yang berkualitas. 
-        Inilah sebabnya kami menciptakan aplikasi perpustakaan online kami, yang dirancang untuk menjadi pintu gerbang ke ribuan buku, artikel, 
-        dan sumber daya belajar lainnya, semuanya hanya dalam genggaman Anda. Kami berdedikasi untuk memajukan literasi dan pembelajaran seumur hidup, 
-        dan kami ingin menjadi mitra Anda dalam perjalanan pembelajaran Anda. Aplikasi perpustakaan kami telah dirancang dengan antarmuka yang ramah 
-        pengguna, fitur pencarian canggih, dan koleksi konten yang terus berkembang untuk menginspirasi dan memberdayakan semua anggota komunitas kami</p>
+          <p>Tegar Shahrul Maulana Ramelan Ganteng Banget</p>
       </div>
       <div class="d-flex justify-content-center">
         <h3 class="text-secondary">Dikembangkan Oleh :</h3>

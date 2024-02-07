@@ -69,8 +69,7 @@ INNER JOIN buku ON peminjaman.id_buku = buku.id_buku");
   
   <footer class="fixed-bottom shadow-lg bg-subtle p-3">
       <div class="container-fluid d-flex justify-content-between">
-      <p class="mt-2">Created by <span class="text-primary"> Mangandaralam Sakti</span> © 2023</p>
-      <p class="mt-2">versi 1.0</p>
+      <p class="mt-2">Created by <span class="text-primary"> Tegar&Vega</span> © 2024</p>
       </div>
     </footer>
     

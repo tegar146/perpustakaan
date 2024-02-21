@@ -77,15 +77,7 @@
           <h3 class="text-light fs-5">Alamat</h3>
           <p class="text-secondary fs-6">Jl. Hercules IV No. 01, Lanud Sulaeman, Sulaiman, Margahayu, Sulaiman, Kec. Margahayu, Kabupaten Bandung, Jawa Barat 40229</p>
         </div>
-        <hr class="text-light mt-3">
-        <div class="d-flex justify-content-center gap-4">
-          <a href="" class="fs-3"><i class="fa-brands fa-github"></i></a>
-          <a href="" class="fs-3"><i class="fa-brands fa-telegram"></i></a>
-          <a href="" class="fs-3"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-        <div class="d-flex justify-content-center align-items-center mt-3">
-          <p class="text-light">Made width ❤️ <a href="" class="text-decoration-none">Bozzkechi487</a>  2023</p>
-        </div>
+       
       </div>
     </footer>
     

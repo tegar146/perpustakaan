@@ -69,7 +69,7 @@
     <footer id="footer" class="p-3 bg-dark">
       <div class="row">
         <div class="col">
-          <img src="assets/logoFooter.png" width="200px">
+          <img src="assets/logoperpus.png" width="200px">
         </div>
       </div>
       <div class="row p-3">

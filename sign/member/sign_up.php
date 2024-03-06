@@ -26,11 +26,11 @@ if(isset($_POST["signUp"]) ) {
     </head>
   <body>
   <div class="container">
-    <div class="card p-2 mt-5">
+    <div class="card p-2 mt-5 bg-primary">
       <div class="position-absolute top-0 start-50 translate-middle">
         <img src="../../assets/memberLogo.png" alt="adminLogo" width="85px">
       </div>
-      <h1 class="pt-5 text-center fw-bold">Sign Up</h1>
+      <h1 class="pt-5 text-center fw- ">Sign Up</h1>
       <hr>
     <form action="" method="post" class="row g-3 p-4 needs-validation" novalidate>
       
@@ -131,7 +131,7 @@ if(isset($_POST["signUp"]) ) {
   </div>
   
   <div class="col-12">
-    <button class="btn btn-primary" type="submit" name="signUp" href="sign_in.php">Sign Up</button>
+    <button class="btn btn-dark" type="submit" name="signUp" href="sign_in.php">Sign Up</button>
     <input type="reset" class="btn btn-warning text-light" value="Reset">
   </div>
   <p>Already have an account? <a href="sign_in.php" class="text-decoration-none text-primary">Sign In</a></p>

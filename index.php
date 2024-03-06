@@ -37,7 +37,7 @@
         <div class="col mt-5">
          <h2 class="fw-bold text-success"><span class="text-primary">Cuy</span>Perpus</h2>
           <p class="mb-4">"Temukan Dunia Pengetahuan di Ujung Jari Anda: <br> Perpustakaan Online <span class="fw-bold">CuyPerpus</span> Membawa Anda ke Dunia Buku Digital."</p>
-          <a class="btn btn-primary" href="sign/link_login.html">Get started</a>
+          <a class="btn btn-primary" href="sign/link_login.html">Login</a>
         </div>
         <div class="col mt-3">
           <img src="assets/logoDashboard-transformed.jpeg" width="450px">

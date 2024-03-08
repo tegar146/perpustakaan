@@ -12,7 +12,7 @@
     <!--Navbar-->
    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary shadow-sm justify-space-between">
   <div class="container-fluid">
-    <img src="assets/logoNav.png" alt="logo" width="120px">
+    <img src="assets/logoperpus.png" alt="logo" width="120px">
     <a href="sign/link_login.html" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </a>
@@ -37,7 +37,7 @@
         <div class="col mt-5">
          <h2 class="fw-bold text-success"><span class="text-primary">Cuy</span>Perpus</h2>
           <p class="mb-4">"Temukan Dunia Pengetahuan di Ujung Jari Anda: <br> Perpustakaan Online <span class="fw-bold">CuyPerpus</span> Membawa Anda ke Dunia Buku Digital."</p>
-          <a class="btn btn-primary" href="sign/link_login.html">Get started</a>
+          <a class="btn btn-primary" href="sign/link_login.html">Login</a>
         </div>
         <div class="col mt-3">
           <img src="assets/logoDashboard-transformed.jpeg" width="450px">
@@ -69,7 +69,7 @@
     <footer id="footer" class="p-3 bg-dark">
       <div class="row">
         <div class="col">
-          <img src="assets/logoFooter.png" width="200px">
+          <img src="assets/logoperpus.png" width="200px">
         </div>
       </div>
       <div class="row p-3">

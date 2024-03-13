@@ -35,8 +35,8 @@
     <section id="homeSection" class="p-5">
       <div class="d-flex flex-wrap justify-content-center">
         <div class="col mt-5">
-         <h2 class="fw-bold text-success"><span class="text-primary">Cuy</span>Perpus</h2>
-          <p class="mb-4">"Temukan Dunia Pengetahuan di Ujung Jari Anda: <br> Perpustakaan Online <span class="fw-bold">CuyPerpus</span> Membawa Anda ke Dunia Buku Digital."</p>
+         <h2 class="fw-bold text-success"><span class="text-primary">Perpus</span>Cuy</h2>
+          <p class="mb-4">"Temukan Dunia Pengetahuan di Ujung Jari Anda: <br> Perpustakaan Online <span class="fw-bold">PerpusCuy</span> Membawa Anda ke Dunia Buku Digital."</p>
           <a class="btn btn-primary" href="sign/link_login.html">Login</a>
         </div>
         <div class="col mt-3">
@@ -66,7 +66,7 @@
     </div>
     </section>
     
-    <footer id="footer" class="p-3 bg-dark">
+    <footer id="footer" class="p-3">
       <div class="row">
         <div class="col">
           <img src="assets/logoperpus.png" width="200px">
@@ -74,8 +74,8 @@
       </div>
       <div class="row p-3">
         <div class="col mt-3">
-          <h3 class="text-light fs-5">Alamat</h3>
-          <p class="text-secondary fs-6">Jl. Hercules IV No. 01, Lanud Sulaeman, Sulaiman, Margahayu, Sulaiman, Kec. Margahayu, Kabupaten Bandung, Jawa Barat 40229</p>
+          <h3 class="text-dark fs-5">Alamat</h3>
+          <p class="text-dark fs-4">Jl. Hercules IV No. 01, Lanud Sulaeman, Sulaiman, Margahayu, Sulaiman, Kec. Margahayu, Kabupaten Bandung, Jawa Barat 40229</p>
         </div>
        
       </div>

@@ -26,11 +26,12 @@ if(isset($_POST["signUp"]) ) {
     </head>
   <body>
   <div class="container">
-    <div class="card p-2 mt-5 bg-primary">
+    <div class="card p-2 mt-5">
       <div class="position-absolute top-0 start-50 translate-middle">
         <img src="../../assets/memberLogo.png" alt="adminLogo" width="85px">
       </div>
       <h1 class="pt-5 text-center fw- ">Sign Up</h1>
+      <h2 class=" text-center">sign up member</h2>
       <hr>
     <form action="" method="post" class="row g-3 p-4 needs-validation" novalidate>
       
@@ -75,7 +76,7 @@ if(isset($_POST["signUp"]) ) {
   </div>
   
   <div class="col input-group mb-2">
-  <label class="input-group-text" for="inputGroupSelect01">Gender</label>
+  <label class="input-group-text" for="inputGroupSelect01">Jenis Kelamin</label>
   <select class="form-select" id="inputGroupSelect01" name="jenis_kelamin">
     <option selected>Choose</option>
     <option value="Laki laki">Laki laki</option>
@@ -90,7 +91,6 @@ if(isset($_POST["signUp"]) ) {
     <option value="X">X</option>
     <option value="XI">XI</option>
     <option value="XII">XII</option>
-    <option value="XIII">XIII</option>
     </select>
   </div>
   

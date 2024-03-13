@@ -27,7 +27,7 @@ function signUp($data) {
   if(mysqli_fetch_assoc($nisnResult)) {
     echo "<script>
     alert('Nisn sudah terdaftar, silahkan gunakan nisn lain!');
-    </script>";
+    </script>"; 
     return 0;
   }
   

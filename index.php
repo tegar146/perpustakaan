@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
-    <title>CuyPerpus.com</title>
+    <title>PerpusCuy.com</title>
     <link rel="icon" href="assets/logoUrl.png" type="image/png">
   </head> 
   <body>
     <!--Navbar-->
-   <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary shadow-sm justify-space-between">
+   <nav class="navbar fixed-top navbar-expand-lg  shadow-sm justify-space-between">
   <div class="container-fluid">
     <img src="assets/logoperpus.png" alt="logo" width="120px">
     <a href="sign/link_login.html" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

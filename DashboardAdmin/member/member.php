@@ -31,7 +31,7 @@ if(isset($_POST["search"]) ) {
           <img src="../../assets/logoperpus.png" alt="logo" width="120px">
         </a>
         
-        <a class="btn btn-tertiary" href="../dashboardAdmin.php">Dashboard</a>
+        <a class="btn btn-tertiary bg-success text-light" href="../dashboardAdmin.php">Dashboard</a>
       </div>
     </nav>
     

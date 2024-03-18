@@ -40,10 +40,10 @@ if(isset($_POST["search"]) ) {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../dashboardAdmin.php">Dashboard</a>
+          <a class="nav-link active bg-success text-light" aria-current="page" href="../dashboardAdmin.php">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-success" href="tambahBuku.php">Tambah Buku</a>
+          <a class="nav-link text-success bg-warning text-light" href="tambahBuku.php">Tambah Buku</a>
         </li>
       </ul>
     </div>

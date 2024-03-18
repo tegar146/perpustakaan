@@ -18,13 +18,13 @@ INNER JOIN buku ON peminjaman.id_buku = buku.id_buku");
   </head>
   <body>
     
-  <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
+  <nav class="navbar fixed-top shadow-sm">
       <div class="container-fluid p-3">
         <a class="navbar-brand" href="#">
           <img src="../../assets/logoperpus.png" alt="logo" width="120px">
         </a>
         
-        <a class="btn btn-tertiary" href="../dashboardAdmin.php">Dashboard</a>
+        <a class="btn btn-tertiary bg-success text-light" href="../dashboardAdmin.php">Dashboard</a>
       </div>
     </nav>
 

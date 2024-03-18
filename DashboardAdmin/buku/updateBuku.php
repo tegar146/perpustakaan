@@ -49,10 +49,10 @@ if(isset($_POST["update"]) ) {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../dashboardAdmin.php">Dashboard</a>
+          <a class="nav-link active bg-success text-light" aria-current="page" href="../dashboardAdmin.php">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-success" href="daftarBuku.php">Browse</a>
+          <a class="nav-link bg-warning text-light" href="daftarBuku.php">Kembali</a>
         </li>
       </ul>
     </div>

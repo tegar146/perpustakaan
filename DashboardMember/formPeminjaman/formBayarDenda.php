@@ -40,6 +40,11 @@ WHERE pengembalian.id_pengembalian = $dendaSiswa");
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
      <title>Form Bayar Denda || Member</title>
   </head>
+  <style>
+    body {
+  padding-top: 62px; /* Adjust this value according to your navbar height */ 
+    }
+  </style>
   <body>
     <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
       <div class="container-fluid p-3">
@@ -47,7 +52,7 @@ WHERE pengembalian.id_pengembalian = $dendaSiswa");
           <img src="../../assets/logoperpus.png" alt="logo" width="120px">
         </a>
         
-        <a class="btn btn-tertiary" href="../dashboardMember.php">Dashboard</a>
+        <a class="btn btn-tertiary bg-success text-light" href="../dashboardMember.php">Dashboard</a>
       </div>
     </nav>
     

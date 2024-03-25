@@ -50,6 +50,11 @@ $buku = queryReadData("SELECT * FROM buku WHERE kategori = 'sains'");
       justify-content: center;
       gap: 1.5rem;
     }
+
+    body {
+  padding-top: 58px; /* Adjust this value according to your navbar height */ 
+    } 
+
   </style>
   <body>
     <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
@@ -66,7 +71,7 @@ $buku = queryReadData("SELECT * FROM buku WHERE kategori = 'sains'");
        <!--Btn filter data kategori buku-->
       <div class="d-flex gap-2 mt-5 justify-content-center">
       <form action="" method="post">
-        <div class="layout-card-custom">
+        <div class="layout-card-custom mt-3">
          <button class="btn btn-primary" type="submit">Semua</button>
          <button type="submit" name="informatika" class="btn btn-outline-primary">Informatika</button>
          <button type="submit" name="bisnis" class="btn btn-outline-primary">Bisnis</button>

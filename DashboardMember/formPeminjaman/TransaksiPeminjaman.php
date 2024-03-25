@@ -31,7 +31,7 @@ WHERE peminjaman.nisn = $akunMember");
           <img src="../../assets/logoperpus.png" alt="logo" width="120px">
         </a>
         
-        <a class="btn btn-tertiary" href="../dashboardMember.php">Dashboard</a>
+        <a class="btn btn-tertiary bg-success text-light" href="../dashboardMember.php">Dashboard</a>
       </div>
     </nav>
     

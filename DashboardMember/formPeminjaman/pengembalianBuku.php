@@ -44,7 +44,7 @@ if(isset($_POST["kembalikan"]) ) {
           <img src="../../assets/logoperpus.png" alt="logo" width="120px">
         </a>
         
-        <a class="btn btn-tertiary" href="../dashboardMember.php">Dashboard</a>
+        <a class="btn btn-tertiary bg-success text-light" href="../dashboardMember.php">Dashboard</a>
       </div>
     </nav>
     
@@ -89,7 +89,7 @@ if(isset($_POST["kembalikan"]) ) {
       <input type="date" class="form-control" name="tgl_peminjaman" id="tgl_peminjaman" value="<?= $item["tgl_peminjaman"]; ?>" readonly>
     </div>
     <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Tenggat Pengembalian Buku</label>
+      <label for="exampleFormControlInput1" class="form-label">Tenggal Pengembalian Buku</label>
       <input type="date" class="form-control" name="tgl_pengembalian" id="tgl_pengembalian" value="<?= $item["tgl_pengembalian"]; ?>"  oninput="hitungDenda()" readonly>
     </div>
     <div class="mb-3">

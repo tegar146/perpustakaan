@@ -17,7 +17,7 @@
     <!--Navbar-->
    <nav class="navbar fixed-top navbar-expand-lg bg-light  shadow-sm justify-space-between">
   <div class="container-fluid">
-    <img src="assets/logoperpus.png" alt="logo" width="120px">
+    <img src="assets/buku.jpg" alt="logo" width="120px">
     <a href="sign/link_login.html" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </a>
@@ -74,7 +74,7 @@
     <footer id="footer" class="p-3">
       <div class="row">
         <div class="col">
-          <img src="assets/logoperpus.png" width="200px">
+          <img src="assets/buku.jpg" width="200px">
         </div>
       </div>
       <div class="row p-3">

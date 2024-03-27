@@ -21,7 +21,7 @@ INNER JOIN buku ON peminjaman.id_buku = buku.id_buku");
   <nav class="navbar fixed-top shadow-sm">
       <div class="container-fluid p-3">
         <a class="navbar-brand" href="#">
-          <img src="../../assets/logoperpus.png" alt="logo" width="120px">
+          <img src="../../assets/buku.jpg" alt="logo" width="120px">
         </a>
         
         <a class="btn btn-tertiary bg-success text-light" href="../dashboardAdmin.php">Dashboard</a>

@@ -27,17 +27,17 @@ if(!isset($_SESSION["signIn"]) ) {
     <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
       <div class="container-fluid p-3">
         <a class="navbar-brand" href="#">
-          <img src="../assets/logoperpus.png" alt="logo" width="120px">
+          <img src="../assets/buku.jpg" alt="logo" width="120px">
         </a>
   
         <div class="dropdown">
           <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="../assets/adminLogo.png" alt="adminLogo" width="40px">
+            <img src="../assets/aadmin.png" alt="admin" width="40px">
           </button>
         <ul style="margin-left: -7rem;" class="dropdown-menu position-absolute mt-2 p-2">
           <li>
             <a class="dropdown-item text-center" href="#">
-            <img src="../assets/adminLogo.png" alt="adminLogo" width="30px">
+            <img src="../assets/aadmin.png" alt="admin" width="30px">
             </a>
           </li>
           <li>

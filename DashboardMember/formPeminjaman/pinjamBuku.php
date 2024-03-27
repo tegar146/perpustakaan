@@ -51,7 +51,7 @@ if(isset($_POST["pinjam"]) ) {
     <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
       <div class="container-fluid p-3">
         <a class="navbar-brand" href="#">
-          <img src="../../assets/logoperpus.png" alt="logo" width="120px">
+          <img src="../../assets/buku.jpg" alt="logo" width="120px">
         </a>
         
         <a class="btn btn-tertiary bg-success text-light" href="../dashboardMember.php">Dashboard</a>
@@ -106,7 +106,7 @@ if(isset($_POST["pinjam"]) ) {
     <div class="card mt-4">
       <h5 class="card-header">Data lengkap Siswa</h5>
       <div class="card-body d-flex flex-wrap gap-4 justify-content-center">
-        <p><img src="../../assets/memberLogo.png" width="150px"></p>
+        <p><img src="../../assets/siswa.png" width="150px"></p>
         <form action="" method="post">
           <?php foreach ($dataSiswa as $item) : ?>
           <div class="input-group mb-3">

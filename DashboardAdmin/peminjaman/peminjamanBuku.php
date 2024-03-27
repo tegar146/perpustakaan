@@ -16,9 +16,14 @@ INNER JOIN buku ON peminjaman.id_buku = buku.id_buku");
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
      <title>Kelola peminjaman buku || admin</title>
   </head>
+  <style>
+    body {
+  padding-top: 69px; /* Adjust this value according to your navbar height */ 
+    }
+  </style>
   <body>
     
-  <nav class="navbar fixed-top shadow-sm">
+  <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
       <div class="container-fluid p-3">
         <a class="navbar-brand" href="#">
           <img src="../../assets/logoperpus.png" alt="logo" width="120px">

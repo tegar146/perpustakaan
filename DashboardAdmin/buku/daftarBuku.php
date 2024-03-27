@@ -26,6 +26,9 @@ if(isset($_POST["search"]) ) {
       justify-content: center;
       gap: 1.5rem;
     }
+    body {
+  padding-top: 69px; /* Adjust this value according to your navbar height */ 
+    }
   </style>
   <body>
   <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">

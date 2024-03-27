@@ -24,6 +24,11 @@ if(isset($_POST["search"]) ) {
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
      <title>Member terdaftar</title>
   </head>
+  <style>
+    body {
+  padding-top: 64px; /* Adjust this value according to your navbar height */ 
+    }
+  </style>
   <body>
     <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
       <div class="container-fluid p-3">

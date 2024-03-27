@@ -17,6 +17,11 @@ if(!isset($_SESSION["signIn"]) ) {
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
      <title>Admin Dashboard</title>
   </head>
+  <style>
+    body {
+  padding-top: 66px; /* Adjust this value according to your navbar height */ 
+    }
+  </style>
   <body>
     
     <nav class="navbar fixed-top bg-body-tertiary shadow-sm">

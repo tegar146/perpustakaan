@@ -40,7 +40,7 @@
           <a class="btn btn-primary" href="sign/link_login.html">Login</a>
         </div>
         <div class="col mt-3">
-          <img src="assets/logoDashboard-transformed.jpeg" width="450px">
+          <img src="assets/logokece.jpg" width="450px">
         </div>
       </div>
     </section>

@@ -106,7 +106,7 @@ if(isset($_POST["pinjam"]) ) {
     <div class="card mt-4">
       <h5 class="card-header">Data lengkap Siswa</h5>
       <div class="card-body d-flex flex-wrap gap-4 justify-content-center">
-        <p><img src="../../assets/memberLogo.png" width="150px"></p>
+        <p><img src="../../assets/siswa.png" width="150px"></p>
         <form action="" method="post">
           <?php foreach ($dataSiswa as $item) : ?>
           <div class="input-group mb-3">

@@ -22,9 +22,12 @@ if(!isset($_SESSION["signIn"]) ) {
       width: 200px;
     }
   }
+  body {
+  padding-top: 65px; /* Adjust this value according to your navbar height */ 
+    }
 </style>
   <body>
-     <nav class="navbar fixed-top  shadow-sm">
+     <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
       <div class="container-fluid p-3">
         <a class="navbar-brand" href="#">
           <img src="../assets/logoperpus.png" alt="logo" width="120px">

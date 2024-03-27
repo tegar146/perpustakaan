@@ -7,10 +7,15 @@
     <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
     <title>PerpusCuy.com</title>
     <link rel="icon" href="assets/logoUrl.png" type="image/png">
-  </head> 
+  </head>
+  <style>
+     body {
+  padding-top: 82px; /* Adjust this value according to your navbar height */ 
+    }
+  </style> 
   <body>
     <!--Navbar-->
-   <nav class="navbar fixed-top navbar-expand-lg  shadow-sm justify-space-between">
+   <nav class="navbar fixed-top navbar-expand-lg bg-light  shadow-sm justify-space-between">
   <div class="container-fluid">
     <img src="assets/logoperpus.png" alt="logo" width="120px">
     <a href="sign/link_login.html" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

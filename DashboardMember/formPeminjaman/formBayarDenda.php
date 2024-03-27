@@ -43,7 +43,7 @@ WHERE pengembalian.id_pengembalian = $dendaSiswa");
   <style>
     body {
   padding-top: 62px; /* Adjust this value according to your navbar height */ 
-    }
+    }  
   </style>
   <body>
     <nav class="navbar fixed-top bg-body-tertiary shadow-sm">

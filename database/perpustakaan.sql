@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Nov 10, 2023 at 06:48 PM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.10
+-- Host: 127.0.0.1
+-- Generation Time: Mar 27, 2024 at 02:35 AM
+-- Server version: 10.4.27-MariaDB
+-- PHP Version: 7.4.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -33,14 +33,14 @@ CREATE TABLE `admin` (
   `password` varchar(25) NOT NULL,
   `kode_admin` varchar(12) NOT NULL,
   `no_tlp` varchar(13) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `admin`
 --
 
 INSERT INTO `admin` (`id`, `nama_admin`, `password`, `kode_admin`, `no_tlp`) VALUES
-(1, 'shahrul', '1234', 'admin1', '085749051409'),
+(1, 'tegar', '1234', 'admin1', '085749051409'),
 (2, 'vega', '4321', 'admin2', '085870283409');
 
 -- --------------------------------------------------------
@@ -59,7 +59,7 @@ CREATE TABLE `buku` (
   `tahun_terbit` date NOT NULL,
   `jumlah_halaman` int(11) NOT NULL,
   `buku_deskripsi` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `buku`
@@ -91,7 +91,7 @@ INSERT INTO `buku` (`cover`, `id_buku`, `kategori`, `judul`, `pengarang`, `pener
 
 CREATE TABLE `kategori_buku` (
   `kategori` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `kategori_buku`
@@ -120,13 +120,14 @@ CREATE TABLE `member` (
   `jurusan` varchar(50) NOT NULL,
   `no_tlp` varchar(15) NOT NULL,
   `tgl_pendaftaran` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `member`
 --
 
 INSERT INTO `member` (`nisn`, `kode_member`, `nama`, `password`, `jenis_kelamin`, `kelas`, `jurusan`, `no_tlp`, `tgl_pendaftaran`) VALUES
+(1234, '146', 'shahrul', '$2y$10$My1iddsOkrp.KofgOoYfTe3q.qzXfEXTDfZyudNx1sihzPeZ49/qa', 'Laki laki', 'XI', 'Teknik Otomotif', '0818282818', '2024-03-07'),
 (202301, 'mem01', 'mangandaralam sakti ', '$2y$10$U53PbfrWXwvMiZ42WzdyfuRLyNKAAxecgPC7ZC..4pxGA8NtlrqBS', 'Laki laki', 'XI', 'Rekayasa Perangkat Lunak', '081383877025', '2023-10-22');
 
 -- --------------------------------------------------------
@@ -142,7 +143,7 @@ CREATE TABLE `peminjaman` (
   `id_admin` int(11) NOT NULL,
   `tgl_peminjaman` date NOT NULL,
   `tgl_pengembalian` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- --------------------------------------------------------
 
@@ -159,7 +160,14 @@ CREATE TABLE `pengembalian` (
   `buku_kembali` date NOT NULL,
   `keterlambatan` enum('YA','TIDAK') NOT NULL,
   `denda` int(15) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `pengembalian`
+--
+
+INSERT INTO `pengembalian` (`id_pengembalian`, `id_peminjaman`, `id_buku`, `nisn`, `id_admin`, `buku_kembali`, `keterlambatan`, `denda`) VALUES
+(60, 76, 'sai02', 1234, 1, '2024-04-02', 'YA', 10000);
 
 --
 -- Indexes for dumped tables
@@ -225,13 +233,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `peminjaman`
 --
 ALTER TABLE `peminjaman`
-  MODIFY `id_peminjaman` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
+  MODIFY `id_peminjaman` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
 
 --
 -- AUTO_INCREMENT for table `pengembalian`
 --
 ALTER TABLE `pengembalian`
-  MODIFY `id_pengembalian` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
+  MODIFY `id_pengembalian` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 
 --
 -- Constraints for dumped tables

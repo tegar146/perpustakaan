@@ -27,12 +27,12 @@ if(!isset($_SESSION["signIn"]) ) {
   
         <div class="dropdown">
           <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="../assets/admin.png" alt="admin" width="40px">
+            <img src="../assets/aadmin.png" alt="admin" width="40px">
           </button>
         <ul style="margin-left: -7rem;" class="dropdown-menu position-absolute mt-2 p-2">
           <li>
             <a class="dropdown-item text-center" href="#">
-            <img src="../assets/admin.png" alt="admin" width="30px">
+            <img src="../assets/aadmin.png" alt="admin" width="30px">
             </a>
           </li>
           <li>

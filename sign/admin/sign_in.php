@@ -40,7 +40,7 @@ if(isset($_POST["signIn"]) ) {
   <div class="container">
     <div class="card p-2 mt-5">
       <div class="position-absolute top-0 start-50 translate-middle">
-        <img src="../../assets/adminLogo.png" class="" alt="adminLogo" width="85px">
+        <img src="../../assets/admin.png" class="" alt="admin" width="85px">
       </div>
       <h1 class="pt-5 text-center fw-bold">Sign In</h1>
       <hr>

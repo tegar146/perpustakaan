@@ -28,7 +28,7 @@ if(isset($_POST["signUp"]) ) {
   <div class="container">
     <div class="card p-2 mt-5">
       <div class="position-absolute top-0 start-50 translate-middle">
-        <img src="../../assets/memberLogo.png" alt="adminLogo" width="85px">
+        <img src="../../assets/memberLogo.png" alt="admin" width="85px">
       </div>
       <h1 class="pt-5 text-center fw- ">Sign Up</h1>
       <h2 class=" text-center">sign up member</h2>

@@ -40,7 +40,7 @@ if(!isset($_SESSION["signIn"]) ) {
         <ul style="margin-left: -7rem;" class="dropdown-menu position-absolute mt-2 p-2">
           <li>
             <a class="dropdown-item text-center" href="#">
-            <img src="../assets/memberLogo.png" alt="adminLogo" width="30px">
+            <img src="../assets/memberLogo.png" alt="admin" width="30px">
             </a>
           </li>
           <li>

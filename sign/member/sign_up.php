@@ -26,16 +26,16 @@ if(isset($_POST["signUp"]) ) {
     </head>
   <body>
   <div class="container">
-    <div class="card p-2 mt-5">
+    <div class="card p-2 mt-5 bg-dark">
       <div class="position-absolute top-0 start-50 translate-middle">
         <img src="../../assets/siswa.png" alt="admin" width="85px">
       </div>
-      <h1 class="pt-5 text-center fw- ">Sign Up</h1>
-      <h2 class=" text-center">sign up member</h2>
+      <h1 class="pt-5 text-center text-light ">Sign Up</h1>
+      <h2 class=" text-center text-light">sign up member</h2>
       <hr>
-    <form action="" method="post" class="row g-3 p-4 needs-validation" novalidate>
+    <form action="" method="post" class="row g-3 p-4 needs-validation bg-success" novalidate>
       
-    <label for="validationCustom01" class="form-label">Nisn</label>
+    <label for="validationCustom01" class="form-label text-light">Nisn</label>
     <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-hashtag"></i></span>
     <input type="number" class="form-control" name="nisn" id="validationCustom01" required>
@@ -43,14 +43,14 @@ if(isset($_POST["signUp"]) ) {
         Nisn wajib diisi!
     </div>
   </div>
-    <label for="validationCustom01" class="form-label">Kode Member</label>
+    <label for="validationCustom01" class="form-label text-light">Kode Member</label>
   <div class="input-group mt-0">
     <input type="text" class="form-control" name="kode_member" id="validationCustom01" required>
     <div class="invalid-feedback">
         Kode member wajib diisi!
     </div>
   </div>
-  <label for="validationCustom02" class="form-label">Nama Lengkap</label>
+  <label for="validationCustom02" class="form-label text-light">Nama Lengkap</label>
   <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
     <input type="text" class="form-control" id="validationCustom02" name="nama" required>
@@ -58,7 +58,7 @@ if(isset($_POST["signUp"]) ) {
         Nama wajib diisi!
     </div>
   </div>
-  <label for="validationCustom02" class="form-label">Password</label>
+  <label for="validationCustom02" class="form-label text-light">Password</label>
   <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
     <input type="password" class="form-control" id="validationCustom02" name="password" required>
@@ -66,7 +66,7 @@ if(isset($_POST["signUp"]) ) {
         Password wajib diisi!
     </div>
   </div>
-  <label for="validationCustom02" class="form-label">Confirm Password</label>
+  <label for="validationCustom02" class="form-label text-light">Confirm Password</label>
   <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
     <input type="password" class="form-control" id="validationCustom02" name="confirmPw" required>
@@ -76,7 +76,7 @@ if(isset($_POST["signUp"]) ) {
   </div>
   
   <div class="col input-group mb-2">
-  <label class="input-group-text" for="inputGroupSelect01">Jenis Kelamin</label>
+  <label class="input-group-text" for="inputGroupSelect01 text-light">Jenis Kelamin</label>
   <select class="form-select" id="inputGroupSelect01" name="jenis_kelamin">
     <option selected>Choose</option>
     <option value="Laki laki">Laki laki</option>
@@ -112,7 +112,7 @@ if(isset($_POST["signUp"]) ) {
     </select>
   </div>
   
-  <label for="validationCustom01" class="form-label">No Telepon</label>
+  <label for="validationCustom01" class="form-label text-light">No Telepon</label>
   <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-phone"></i></span>
     <input type="number" class="form-control" name="no_tlp" id="validationCustom01" required>
@@ -121,7 +121,7 @@ if(isset($_POST["signUp"]) ) {
     </div>
   </div>
   
-  <label for="validationCustom01" class="form-label">Tanggal Pendaftaran</label>
+  <label for="validationCustom01" class="form-label text-light">Tanggal Pendaftaran</label>
   <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-calendar-days"></i></span>
     <input type="date" class="form-control" name="tgl_pendaftaran" id="validationCustom01" required>
@@ -134,7 +134,7 @@ if(isset($_POST["signUp"]) ) {
     <button class="btn btn-dark" type="submit" name="signUp" href="sign_in.php">Sign Up</button>
     <input type="reset" class="btn btn-warning text-light" value="Reset">
   </div>
-  <p>Already have an account? <a href="sign_in.php" class="text-decoration-none text-primary">Sign In</a></p>
+  <p>Already have an account? <a href="sign_in.php" class="text-decoration-none text-light">Sign In</a></p>
 </form>
 </div>
   </div>

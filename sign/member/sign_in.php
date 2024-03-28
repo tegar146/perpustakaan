@@ -44,16 +44,16 @@ if(isset($_POST["signIn"]) ) {
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
      <title>Sign In || Member</title>
     </head>
-  <body>
+  <body class="">
   <div class="container">
-    <div class="card p-2 mt-5">
-      <div class="position-absolute top-0 start-50 translate-middle">
+    <div class="card p-2 mt-5 bg-dark">
+      <div class="position-absolute top-0 start-50 translate-middle bg-dark">
         <img src="../../assets/siswa.png" alt="admin" width="85px">
       </div>
-      <h1 class="pt-5 text-center fw-bold">Sign In</h1>
+      <h1 class="pt-5 text-center fw-bold bg-dark text-light">Sign In</h1>
       <hr>
-    <form action="" method="post" class="row g-3 p-4 needs-validation" novalidate>
-    <label for="validationCustom01" class="form-label">Nama Lengkap</label>
+    <form action="" method="post" class="row g-3 p-4 needs-validation bg-success" novalidate>
+    <label for="validationCustom01" class="form-label text-light">Nama Lengkap</label>
   <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
     <input type="text" class="form-control" name="nama" id="validationCustom01" required>
@@ -61,7 +61,7 @@ if(isset($_POST["signIn"]) ) {
         Masukkan nama anda!
     </div>
   </div>
-    <label for="validationCustom01" class="form-label">Nisn</label>
+    <label for="validationCustom01" class="form-label text-light">Nisn</label>
   <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-hashtag"></i></span>
     <input type="number" class="form-control" name="nisn" id="validationCustom01" required>
@@ -69,7 +69,7 @@ if(isset($_POST["signIn"]) ) {
         Masukkan Nisn anda!
     </div>
   </div>
-  <label for="validationCustom02" class="form-label">Password</label>
+  <label for="validationCustom02" class="form-label text-light">Password</label>
   <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
     <input type="password" class="form-control" id="validationCustom02" name="password" required>
@@ -79,9 +79,9 @@ if(isset($_POST["signIn"]) ) {
   </div>
   <div class="col-12">
     <button class="btn btn-primary" type="submit" name="signIn">Sign In</button>
-    <a class="btn btn-success" href="../link_login.html">Batal</a>
+    <a class="btn btn-danger" href="../link_login.html">Batal</a>
   </div>
-  <p>Don't have an account yet? <a href="sign_up.php" class="text-decoration-none text-primary">Sign Up</a></p>
+  <p>Don't have an account yet? <a href="sign_up.php" class="text-decoration-none text-light">Sign Up</a></p>
 </form>
 </div>
 <?php if(isset($error)) : ?>

@@ -24,6 +24,11 @@ WHERE pengembalian.nisn = $nisnSiswa && pengembalian.denda > 0");
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
      <title>Transaksi Denda Buku || Member</title>
   </head>
+  <style>
+     body {
+  padding-top: 62px; /* Adjust this value according to your navbar height */ 
+    }
+  </style>
   <body>
     <nav class="navbar fixed-top bg-body-tertiary shadow-sm">
       <div class="container-fluid p-3">

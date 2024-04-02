@@ -24,7 +24,7 @@ if(isset($_POST["signUp"]) ) {
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
      <title>Sign Up || Member</title>
     </head>
-  <body>
+  <body class="bg-primary">
   <div class="container">
     <div class="card p-2 mt-5 bg-dark">
       <div class="position-absolute top-0 start-50 translate-middle">
